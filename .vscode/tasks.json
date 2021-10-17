@@ -6,7 +6,7 @@
         {
             "label": "req",
             "type": "shell",
-            "command": "pip freeze > requirements.txt --exclude-editable"
+            "command": "pip freeze > requirements.txt"
         }
     ]
 }
