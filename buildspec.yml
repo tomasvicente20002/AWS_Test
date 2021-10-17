@@ -21,7 +21,7 @@ phases:
     commands:
       - pytest
   
-  aertifacts:
+  artifacts:
     files:
       -'**/*'
        base-directory: base_location
