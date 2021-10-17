@@ -15,6 +15,3 @@ if __debug__:
         except ValueError:
             PORT = 5555
         app.run(HOST, PORT)
-
-else:
-    app.run()
