@@ -7,4 +7,4 @@ from flask import Flask
 #extra variable for aws web server
 application = app = Flask(__name__)
 
-import RC.views
+import App.views
