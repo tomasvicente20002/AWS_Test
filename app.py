@@ -55,6 +55,3 @@ def create_item_in_store():
 @app.route('/store/<string:name>/item')
 def get_items_in_store():
     pass
-
-
-app.run(port=5000)
