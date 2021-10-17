@@ -20,3 +20,10 @@ phases:
   build:
     commands:
       - pytest
+  
+  aertifacts:
+    files:
+      -'**/*'
+       base-directory: base_location
+       name : dev
+       discard-paths: no
