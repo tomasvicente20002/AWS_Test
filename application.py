@@ -16,6 +16,6 @@ if __name__ == '__main__':
             PORT = 5555
 
         application.debug = True
-        app.run(HOST, PORT)
+        application.run(HOST, PORT)
     else:
         application.run(host='0.0.0.0')
